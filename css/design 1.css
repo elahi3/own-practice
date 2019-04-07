@@ -12,7 +12,7 @@ header {
     width: 100%;
     background: #CE0000;
 }
-li {
+header li {
     width: 120px;
     height: 35px;
     background: #6500FF;
@@ -49,7 +49,14 @@ main {
     height: 450px;
     width: 700px;
     background: white;
-    position: relative;
+    position: absolute;
     top: 225px;
     left: 100px;
+}
+.inside {
+    height: 300;
+    width: 640;
+    background: #FE0098;
+    margin: 20px;
+    position: relative;
 }
