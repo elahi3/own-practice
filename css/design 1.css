@@ -10,22 +10,21 @@
 header {
     height: 60px;
     width: 100%;
-    background: red;
+    background: #CE0000;
 }
 li {
     width: 120px;
     height: 35px;
-    background: blue;
+    background: #6500FF;
     float: left;
-    margin: 10px;
-    padding: 5px;
+    margin-top: 13px;
     right: 70px;
     margin-left: 50px;
     list-style: none;
 }
 nav {
     float: right;
-    padding-top: 14px; 
+    padding-top: 10px; 
 }
 nav ul {
     list-style: none;
@@ -34,9 +33,23 @@ nav ul li {
     display: inline-block;
     height: 16px;
     width: 100px;
-    background: blue;
+    background: #6500FF;
     margin-right: 30px; 
 }
 nav ul li:last-child {
 	margin-right: 60px;
+}
+main {
+    height: 900px;
+    width: 100%;
+    background: black;
+    position: absolute;
+}
+.body {
+    height: 450px;
+    width: 700px;
+    background: white;
+    position: relative;
+    top: 225px;
+    left: 100px;
 }
