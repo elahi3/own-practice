@@ -49,7 +49,7 @@ main {
     height: 450px;
     width: 700px;
     background: white;
-    position: absolute;
+    position: relative;
     top: 225px;
     left: 100px;
 }
@@ -58,7 +58,7 @@ main {
     width: 640;
     background: #FE0098;
     margin: 20px;
-    position: relative;
+    position: absolute;
 }
 .body li {
     list-style: none;
@@ -74,4 +74,23 @@ main {
     height: 50;
     width: 150px;
     background: #06BAF3;
+}
+#box {
+	width: 100%;
+	height: 782px;
+	background: #853FDF;
+    margin-top: 450px;
+    padding: 150px 100px;
+    position: relative;
+}
+
+#box .element {
+	width: 31%;
+	height: 500px;
+	background: white;
+	float: left;
+}
+
+#box .element:not(:last-child) {
+	margin-right: 30px;
 }
