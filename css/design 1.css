@@ -60,3 +60,18 @@ main {
     margin: 20px;
     position: relative;
 }
+.body li {
+    list-style: none;
+    display: inline-block;
+}
+.one {
+    height: 50;
+    width: 150px;
+    background: #F306CC;
+    float: left;
+}
+.two {
+    height: 50;
+    width: 150px;
+    background: #06BAF3;
+}
