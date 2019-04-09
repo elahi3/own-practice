@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.full {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    height: 60px;
+    width: 100%;
+    background: #CE0000;    
+}
+nav {
+    
+}
