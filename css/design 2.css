@@ -62,7 +62,7 @@ main {
      background: white;
      position: absolute;
 }
-.content {
+main .content {
     height: 300px;
     width: 640px;
     background: #FE0098;
@@ -81,4 +81,16 @@ main {
     height: 50px;
     width: 150px;
     background: #06BAF3;
+}
+#box {
+    height: 782px;
+    width: 100%;
+    background: #853FDF;
+}
+#box .element {
+	width: 400px;
+	height: 500px;
+	background: white;
+    float: left;
+    margin: 141px 30px auto 40px;
 }
