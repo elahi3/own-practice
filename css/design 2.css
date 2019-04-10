@@ -3,15 +3,37 @@
     margin: 0;
     padding: 0;
 }
-.full {
+.container {
     max-width: 1600px;
     margin: 0 auto;
 }
 header {
     height: 60px;
     width: 100%;
-    background: #CE0000;    
+    background: #CE0000;
+    position: relative;
 }
 nav {
-    
+    height: 35px;
+    width: 680px;
+    background: blue;
+    position: absolute;
+    padding-top: 13px;
+    left: 460px;
+}
+.one {
+    height: 16px;
+    width: 100px;
+    list-style: none;
+}
+.one li {
+    padding-right: 30px;
+    background: white;
+    position: absolute;
+}
+main {
+    height: 900px;
+    width: 100%;
+    background: black;
+    position: relative;
 }
