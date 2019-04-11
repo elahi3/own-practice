@@ -37,6 +37,7 @@ nav {
     background: #6500FF;
     left: 260px;
     position: absolute;
+    margin: 0px 0px 0px 30px;
 }
 .two li {
     list-style: none;
@@ -86,11 +87,33 @@ main .content {
     height: 782px;
     width: 100%;
     background: #853FDF;
+    position: relative;
+}
+.title {
+    height: 76px;
+    width: 395px;
+    background: white;
+    top: 50px;
+    left: 40px;
+    position: absolute;
 }
 #box .element {
 	width: 400px;
 	height: 500px;
 	background: white;
     float: left;
-    margin: 141px 30px auto 40px;
+    margin: 182px 30px auto 40px;
+}
+
+.image {
+    height: 150px;
+    width: 200px;
+    margin: 50px 100px 0px 100px;
+    background: #60BB75;
+}
+.text {
+    height: 240px;
+    width: 340px;
+    margin: 30px 30px 30px 30px;
+    background: #A83A80;
 }
