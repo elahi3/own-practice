@@ -12,116 +12,204 @@ header {
     height: 60px;
     width: 100%;
     background: #CE0000;
+    position: relative;
 }
-header li {
-    width: 120px;
+header .logo {
     height: 35px;
-    background: #6500FF;
+    width: 120px;
+    background: blue;
     float: left;
+    margin-left: 150px;
     margin-top: 13px;
-    right: 70px;
-    margin-left: 50px;
-    list-style: none;
 }
 nav {
-    float: right;
-    padding-top: 10px; 
-}
-nav ul {
     list-style: none;
+    float: right;
 }
 nav ul li {
-    display: inline-block;
     height: 16px;
     width: 100px;
-    background: #6500FF;
-    margin-right: 30px; 
+    display: inline-block;
+    background: blue;
+    margin-right: 30px;
+    margin-top:22px;
 }
-nav ul li:last-child {
-	margin-right: 60px;
+nav ul li:nth-child(5) {
+    margin-right: 150px;
 }
-main {
+.op {
     height: 900px;
     width: 100%;
     background: black;
+    position: relative;
+}
+.op .content {
+    width: 700px;
+    height: 450px;
+    background: white;
+    top: 195px;
+    left: 150px;
     position: absolute;
 }
-.body {
-    height: 450px;
-    width: 700px;
-    background: white;
-    position: relative;
-    top: 225px;
-    left: 100px;
-}
-.inside {
+.op .content .text {
     height: 300px;
     width: 640px;
-    background: #FE0098;
+    background: #F306CC;
     margin: 30px 30px 30px 30px;
-    
 }
-.body button {
-    list-style: none;
-    display: inline-block;
-    margin-left: 30px;
-}
-.one {
+.pink {
     height: 50px;
     width: 150px;
-    background: #F306CC;
-    float: left;
+    margin: auto 30px 30px 30px;
+    background: #FE0098;
 }
-.two {
+.blue {
     height: 50px;
     width: 150px;
     background: #06BAF3;
+    margin: auto auto 30px auto;
 }
-#box {
-	width: 100%;
-	height: 782px;
-	background: #853FDF;
-    margin-top: 430px;
-    padding: 150px 100px;
+.about {
+    height: 782px;
+    width: 100%;
+    background: #853FDF;
     position: relative;
 }
-
-#box .element {
-	width: 31%;
-	height: 500px;
-	background: white;
-	float: left;
+.about .huh {
+    height: 60px;
+    width: 320px;
+    background: white;
+    margin-top: 50px;
+    margin-left: 640px;
+    margin-bottom: 72px;
+    position: absolute;
 }
-
-#box .element:not(:last-child) {
-	margin-right: 30px;
+.about .content {
+    margin-left: 100px;
 }
-footer {
+.about .content .element {
+    width: 400px;
+    height: 500px;
+    background: white;
+    display: inline-block;
+    margin: 182px auto auto 50px;
+}
+.quote {
     height: 300px;
     width: 100%;
     background: #00FFA0;
-    position: relative;
-    top: 1682px;
 }
-.foot {
+.quote .content {
     height: 130px;
     width: 1200px;
     background: transparent;
-    position: relative;
-    list-style: none;
-    top: 100px;
-    left: 100px;
+    margin: 85px 200px 85px 200px;
+    position: absolute;
 }
-.big {
-    height: 50px;
+.quote .content .rct {
     width: 1200px;
+    height: 50px;
     background: #FF0090;
 }
-.small {
+.quote .content button {
     height: 50px;
     width: 200px;
     background: #4DBCDF;
-    left: 500px;
-    top: 30px;
+    margin: 30px auto auto 500px;
+}
+.abtscnd {
+    height: 700px;
+    width: 100%;
+    background: #B554FF;
+}
+.rctt {
+    height: 60px;
+    width: 320px;
+    background: white;
+    margin: 50px auto auto 640px;
+    position: absolute;
+}
+.rrct {
+    height: 450px;
+    width: 590px;
+    background: white;
+    float: right;
+    margin: 150px 180px auto auto;
+}
+.testimonial {
+    width: 100%;
+    height: 762px;
+    background: #0D7DD2;
+}
+.tstrct {
+    height: 60px;
+    width: 320px;
+    background: white;
+    margin: 52px 640px auto 640px;
+    position: absolute;
+}
+.tstrt {
+    height: 500px;
+    width: 980px;
+    background: white;
+    margin: 180px 310px auto 310px;
+    position: absolute;
+}
+.contact {
+    height: 700px;
+    width: 100%;
+    background: #00FF2B;
+}
+.con {
+    height: 60px;
+    width: 320px;
+    background: white;
+    margin: 50px auto auto 640px;
+    position: absolute;
+}
+.tact {
+    height: 450px;
+    width: 590px;
+    background: white;
+    margin: 150px 180px auto auto;
+    float: right;
+}
+footer {
+    height: 500px;
+    width: 100%;
+    background: #E18787;
     position: relative;
+}
+.left {
+    height: 373px;
+    width: 373px;
+    background: white;
+    float: left;
+    margin: 50px auto auto 180px;
+    position: absolute;
+}
+.left .logo {
+    height: 70px;
+    width: 240px;
+    background: #6500FF;
+}
+.left .rctn {
+    height: 273px;
+    width: 373px;
+    background: #FF0011;
+    margin-top: 37px;
+}
+.middle {
+    height: 310px;
+    width: 250px;
+    background: white;
+    left: 676px;
+    top: 50px;
+    position: absolute;
+}
+.middle .title {
+    height: 50px;
+    width: 250px;
+    background: #11D2E1;
+
 }
