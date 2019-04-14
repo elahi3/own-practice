@@ -26,7 +26,7 @@ nav {
     list-style: none;
     float: right;
 }
-nav ul li {
+header nav ul li {
     height: 16px;
     width: 100px;
     display: inline-block;
@@ -34,7 +34,7 @@ nav ul li {
     margin-right: 30px;
     margin-top:22px;
 }
-nav ul li:nth-child(5) {
+header nav ul li:nth-child(5) {
     margin-right: 150px;
 }
 .op {
@@ -202,7 +202,7 @@ footer {
 .middle {
     height: 310px;
     width: 250px;
-    background: white;
+    background: transparent;
     left: 676px;
     top: 50px;
     position: absolute;
@@ -211,5 +211,38 @@ footer {
     height: 50px;
     width: 250px;
     background: #11D2E1;
-
+}
+.navigation {
+    height: 210px;
+    width: 200px;
+    background: transparent;
+    margin: 50px 25px 0px 35px;
+}
+.navigation ul {
+    list-style: none;
+    display: inline;
+}
+.navigation ul li {
+    height: 30px;
+    width: 200px;
+    margin-bottom: 15px;
+    background: #CC4D80;
+}
+.right {
+    width: 373px;
+    height: 380px;
+    float: right;
+    margin: 50px 180px auto auto;
+    background: white;
+}
+.right .title {
+    height: 50px;
+    width: 250px;
+    background: #11D2E1;
+}
+.rctngl {
+    height: 273px;
+    width: 373px;
+    background: #FF0011;
+    margin-top: 57px;
 }
