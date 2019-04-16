@@ -63,6 +63,11 @@ header nav ul li {
     display: inline-block;
     background: #6500FF;
 }
-header nav ul li:nth-child(5) {
+header nav ul li:last-child {
     margin-right: 0px;
+}
+.services {
+    height: 782px;
+    width: 100%;
+    background: #853FDF;
 }
