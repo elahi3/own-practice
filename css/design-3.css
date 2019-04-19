@@ -31,7 +31,7 @@
     height: 50px;
     width: 150px;
     background: #F306CC;
-    margin: auto 575px 30px 575px;
+    margin: 0px 575px 30px 575px;
 }
 header {
     height: 60px;
@@ -44,13 +44,13 @@ header .logo {
     width: 120px;
     background: #6500FF;
     float: left;
-    margin: 13px auto auto 150px;
+    margin: 13px 0px 0px 150px;
 }
 header nav {
     height: 16px;
     width: 620px;
     background: transparent;
-    margin: 22px 150px 22px auto;
+    margin: 22px 150px 22px 0px;
     float: right;
 }
 header nav ul {
@@ -75,7 +75,7 @@ header nav ul li:last-child {
 .services .title {
     height: 76px;
     width: 395px;
-    margin: 50px auto auto 146px;
+    margin: 50px 0px 0px 146px;
     background: white;
     position: absolute;
 }
@@ -143,7 +143,7 @@ main .content-container {
     height: 800px;
     background: white;
     top: 312px;
-    position: absolute;
+    position: relative;
 }
 .example1 {
     height: 400px;
@@ -192,4 +192,15 @@ main .content-container {
     width: 400px;
     background: #9F4545;
     display: inline-block;
+}
+.blog {
+    height: 782px;
+    width: 100%;
+    background: #853FDF;
+}
+.blog .title {
+    height: 60px;
+    width: 320px;
+    background: white;
+    margin: 50px 0 0 150px;
 }
